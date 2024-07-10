@@ -90,10 +90,10 @@ mvn archetype:generate \
   -DarchetypeArtifactId=graalpy-archetype-polyglot-app \
   -DarchetypeVersion=24.0.0
 ```
-> groupId: com.dashaun.paketo.graalpy
-> artifactId: buildpackify
-> version: 1.0-SNAPSHOT
-> package: com.dashaun.paketo.graalpy
+> - groupId: com.dashaun.paketo.graalpy
+> - artifactId: buildpackify
+> - version: 1.0-SNAPSHOT
+> - package: com.dashaun.paketo.graalpy
 
 Now we have a `maven` project that includes some simple `python` code and is ready to go!
 
