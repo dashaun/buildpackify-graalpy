@@ -1,9 +1,9 @@
 # Buildpackify-GraalPy
 
-... your Python code isn't running as awesome as it could be.
-... your data scientists shouldn't be creating Dockerfile for production.
-... you would like to save some money on your application infrastructure.
-... you want to sleep well, instead of worrying about production container security.
+- your Python code isn't running as awesome as it could be.
+- your data scientists shouldn't be creating Dockerfile for production.
+- you would like to save some money on your application infrastructure.
+- you want to sleep well, instead of worrying about production container security.
 
 This project tries to help.
 
