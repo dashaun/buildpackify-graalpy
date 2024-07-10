@@ -15,7 +15,7 @@ We needed another way.
 
 We decided to bring in [GraalPy](https://www.graalvm.org/python/) and give it a try.
 Of course it worked, GraalPy was able to optimize the Python project.
-But, it didn't help with creating a production ready, enterprise grade container.
+But, it didn't help with creating a production-ready, enterprise-grade container.
 
 ```text
 Friends don't let friends use Dockerfile.
@@ -26,7 +26,6 @@ So we used the GraalPy `Maven Archetype` to generate a project, that we could de
 This project takes `Python` wraps it with `Java` and connects them via the polyglot API and creates an OCI image using Paketo Buildpacks.
 
 ### Prerequisites
-- [SDKman](https://sdkman.io)
 - [Docker](https://docker.com)
 - [Pack](https://github.com/buildpacks/pack) 
 
@@ -53,6 +52,8 @@ docker run buildpackify
 > Q.E.D.
 
 ### Development Setup
+
+- Using [SDKman](https://sdkman.io)
 
 ```bash
 # Initialize the shell with GraalVM and Maven
