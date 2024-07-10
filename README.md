@@ -34,10 +34,8 @@ This project takes `Python` wraps it with `Java` and connects them via the polyg
 ```bash
 pack build buildpackify \
 --builder paketobuildpacks/builder-jammy-base \
---buildpack paketo-buildpacks/syft \
 --buildpack paketo-buildpacks/graalvm \
 --buildpack paketo-buildpacks/java \
---buildpack paketo-buildpacks/maven \
 --env BP_MAVEN_ACTIVE_PROFILES=native \
 --env BP_MAVEN_BUILT_ARTIFACT=target/buildpackify-1.0-SNAPSHOT.zip \
 --env BP_NATIVE_IMAGE=true \
